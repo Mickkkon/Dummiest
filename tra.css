@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body
+
+{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+
+
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.showcase {
+    
+    min-height: 400px;
+    position: relative;
+    
+}
+.bg-image {
+    background:  url("imagefolder/starimage.jpg");
+    background-color:#333;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border: 2px solid yellow;
+    position: absolute;
+    opacity: 0.4;
+    z-index: 102;
+
+}
+.content {
+    color: white;
+    margin: 0 20px 0;
+
+}
+.content h1 {
+    padding-top: 40px;
+    color: black;
+}
+.content p {
+    padding-top: 40px;
+    color: black;
+
+}
+
+.container {
+    padding: 10px;
+    background: blue;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+} 
+
+.container div {
+    background: navajowhite;
+    font-size: 30px;
+    padding: 20px;
+}
+.item1 {
+    height: 300px;
+}
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+ 
+
+ 
+
+ 
+ 
+
